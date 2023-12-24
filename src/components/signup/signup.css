@@ -1,0 +1,36 @@
+.signup-box {
+  width: fit-content;
+  position: relative;
+  top: 50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .signup-box {
+    width: fit-content;
+    position: relative;
+    top: 50px;
+    margin: 20px;
+  }
+  .sign-up-form input {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .signup-box {
+    width: fit-content;
+    position: relative;
+    top: 50px;
+  }
+  .sign-up-form input {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .signup-box {
+    margin-top: 60px;
+    width: 100%;
+  }
+  .sign-up-form input {
+    width: 100%;
+  }
+}

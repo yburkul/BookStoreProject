@@ -1,0 +1,46 @@
+.checkout-form {
+  width: 50%;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .checkout-form {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 90%;
+  }
+  .checkout-form input {
+    width: fit-content;
+  }
+  .checkout-form h2 {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .checkout-form {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 90%;
+  }
+  .checkout-form input {
+    width: fit-content;
+  }
+  .checkout-form h2 {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .checkout-form {
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  .checkout-form h2 {
+    margin-bottom: 20px;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+  }
+}

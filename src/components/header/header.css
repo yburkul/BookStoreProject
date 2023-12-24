@@ -1,0 +1,21 @@
+.form-control {
+  width: 450px;
+}
+.drop-down-box {
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .form-control {
+    width: 100px;
+  }
+  .book-store-name {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .form-control {
+    width: 130px;
+  }
+}

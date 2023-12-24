@@ -1,0 +1,272 @@
+.order-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.order-box {
+  position: relative;
+  left: 180px;
+  width: 50%;
+}
+.shopping-address-box {
+  width: 90%;
+}
+.table-box {
+  width: 90%;
+  display: flex;
+}
+.table th,
+.table td {
+  text-align: center;
+}
+.item-col {
+  text-align: left;
+}
+.btn {
+  margin: 10px;
+}
+
+.total-order-price-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  width: 40%;
+}
+
+.total-order-price {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+}
+
+.total-price p {
+  margin: 0;
+  font-weight: bold;
+}
+.item-box {
+  width: 85%;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .order-box {
+    position: relative;
+    left: 5px;
+    width: 100%;
+  }
+  .shopping-address-box {
+    width: 90%;
+    align-items: start;
+  }
+  .payment-method-box {
+    width: 95%;
+  }
+  .table-box {
+    width: 95%;
+    display: flex;
+  }
+  .table th,
+  .table td {
+    text-align: center;
+    position: relative;
+    right: 10px;
+  }
+  .table td span {
+    text-align: center;
+    width: 5px;
+    display: none;
+  }
+  .item-col {
+    text-align: left;
+  }
+  .btn {
+    margin: 10px;
+  }
+
+  .total-order-price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 0px;
+  }
+
+  .total-order-price {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 280px;
+  }
+
+  .total-price p {
+    margin: 0;
+    font-weight: bold;
+  }
+  .item-box {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .order-box {
+    position: relative;
+    left: 15px;
+    width: 100%;
+  }
+  .shopping-address-box {
+    width: 90%;
+    align-items: start;
+  }
+  .payment-method-box {
+    width: 95%;
+  }
+  .table-box {
+    width: 95%;
+    display: flex;
+  }
+  .table th,
+  .table td {
+    text-align: center;
+    position: relative;
+    right: 10px;
+  }
+  .table td span {
+    text-align: center;
+    width: 5px;
+    display: none;
+  }
+  .item-col {
+    text-align: left;
+  }
+  .btn {
+    margin: 10px;
+  }
+
+  .total-order-price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 0px;
+  }
+
+  .total-order-price {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 280px;
+  }
+
+  .total-price p {
+    margin: 0;
+    font-weight: bold;
+  }
+  .item-box {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .order-box {
+    position: relative;
+    left: 15px;
+    width: 100%;
+  }
+  .shopping-address-box {
+    width: 90%;
+    align-items: start;
+  }
+  .table-box {
+    width: 90%;
+    display: flex;
+  }
+  .table th,
+  .table td {
+    text-align: center;
+  }
+  .item-col {
+    text-align: left;
+  }
+  .btn {
+    margin: 10px;
+  }
+
+  .total-order-price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 0px;
+  }
+
+  .total-order-price {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 280px;
+  }
+  .total-order-price button {
+    width: 200px;
+  }
+  .total-price p {
+    margin: 0;
+    font-weight: bold;
+  }
+  .item-box {
+    width: 200px;
+  }
+}
